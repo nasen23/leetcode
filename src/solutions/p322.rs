@@ -19,22 +19,3 @@ impl Solution {
         }
     }
 }
-
-fn greedy(coins: Vec<i32>, amount: i32) -> i32 {
-    let mut coins = coins;
-    coins.sort();
-
-    let mut count = 0;
-    let mut amount = amount;
-    for c in coins.iter().rev() {
-        let div = amount / c;
-        let amount = amount % c;
-        count += div;
-    }
-
-    if (amount != 0) {
-        -1
-    } else {
-        count
-    }
-}
