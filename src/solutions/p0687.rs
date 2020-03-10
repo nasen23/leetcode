@@ -2,7 +2,6 @@ use crate::TreeNode;
 use std::cell::RefCell;
 use std::rc::Rc;
 
-
 struct Solution;
 
 type Tree = Option<Rc<RefCell<TreeNode>>>;
@@ -37,7 +36,7 @@ fn arrow_length(node: &Tree) -> i32 {
 
             unsafe { ANS = std::cmp::max(ANS, aleft + aright) }
             std::cmp::max(aleft, aright)
-        },
+        }
         None => 0,
     }
 }
