@@ -7,6 +7,7 @@ mod p0313;
 mod p0322;
 mod p0456;
 mod p0543;
+mod p0605;
 mod p0687;
 mod p0876;
 mod p0945;
