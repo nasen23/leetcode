@@ -1,5 +1,6 @@
 #![allow(dead_code, unused_macros)]
 
+mod p0036;
 mod p0121;
 mod p0300;
 mod p0307;
