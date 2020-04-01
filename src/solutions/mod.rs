@@ -23,6 +23,7 @@ mod p0892;
 mod p0911;
 mod p0912;
 mod p0945;
+mod p1111;
 mod p1291;
 mod p1381;
 mod p1382;
