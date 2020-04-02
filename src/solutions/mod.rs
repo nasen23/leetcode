@@ -20,6 +20,7 @@ mod p0605;
 mod p0649;
 mod p0682;
 mod p0687;
+mod p0768;
 mod p0814;
 mod p0820;
 mod p0875;
