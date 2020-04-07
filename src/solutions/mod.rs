@@ -3,6 +3,7 @@
 mod m0062;
 mod p0008;
 mod p0036;
+mod p0072;
 mod p0121;
 mod p0137;
 mod p0215;
