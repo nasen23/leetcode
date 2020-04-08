@@ -10,8 +10,6 @@ macro_rules! vec_vec {
 
 #[cfg(test)]
 mod tests {
-    use super::*;
-
     #[test]
     fn test_vec_vec() {
         assert_eq!(vec_vec![[1, 2], [3, 4]], vec![vec![1, 2], vec![3, 4]]);
