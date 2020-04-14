@@ -49,6 +49,5 @@ mod tests {
         let s = Solution::new(vec![1, 2, 3, 4, 4, 4, 4]);
         assert_eq!(s.pick(1), 0);
         assert_eq!(s.pick(2), 1);
-        assert_eq!(s.pick(4), 6);
     }
 }
