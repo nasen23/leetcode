@@ -4,7 +4,7 @@ use std::rc::Rc;
 mod macros;
 pub use macros::*;
 
-#[derive(PartialEq, Eq, Debug)]
+#[derive(PartialEq, Eq, Debug, Clone)]
 pub struct ListNode {
     pub val: i32,
     pub next: Option<Box<ListNode>>,
