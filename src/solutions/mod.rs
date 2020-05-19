@@ -6,6 +6,7 @@ mod m0062;
 mod m01_07;
 mod m16_04;
 mod p0003;
+mod p0005;
 mod p0008;
 mod p0011;
 mod p0021;
