@@ -2,28 +2,23 @@ use std::collections::HashSet;
 
 impl Solution {
     pub fn find_subsequences(nums: Vec<i32>) -> Vec<Vec<i32>> {
-        let dp = nums.iter().map(|&x| vec![vec![x]]).collect::<Vec<_>>();
-        for i in 1..nums.len() {
-            for j in 0..i {
-                for seq in dp[j].iter() {
-                    if nums[i] >= *seq.last().unwrap() {
-                        let mut seq = seq.clone();
-                        seq.push(nums[i]);
-                        unsafe {
-                            (*(dp.as_ptr().add(i) as *mut Vec<Vec<i32>>)).push(seq);
-                        }
-                    }
-                }
-            }
-        }
+        let mut res = vec![];
+        dfs(&mut res, &mut vec![], &nums, 0);
+        res
+    }
+}
 
-        let set = dp
-            .into_iter()
-            .skip(1)
-            .flatten()
-            .filter(|v| v.len() > 1)
-            .collect::<HashSet<_>>();
-        set.into_iter().collect()
+fn dfs(res: &mut Vec<Vec<i32>>, seq: &mut Vec<i32>, nums: &Vec<i32>, p: usize) {
+    if seq.len() > 1 {
+        res.push(seq.clone());
+    }
+    let mut set = HashSet::new();
+    for i in p..nums.len() {
+        if set.insert(nums[i]) && seq.last().map_or(true, |&x| x <= nums[i]) {
+            seq.push(nums[i]);
+            dfs(res, seq, nums, i + 1);
+            seq.pop();
+        }
     }
 }
 
