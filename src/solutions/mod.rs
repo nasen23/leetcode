@@ -28,6 +28,7 @@ mod p0062;
 mod p0066;
 mod p0070;
 mod p0072;
+mod p0074;
 mod p0076;
 mod p0098;
 mod p0101;
