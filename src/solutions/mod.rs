@@ -10,6 +10,7 @@ mod m16_18;
 mod p0003;
 mod p0004;
 mod p0005;
+mod p0006;
 mod p0008;
 mod p0010;
 mod p0011;
