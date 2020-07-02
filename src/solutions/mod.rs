@@ -73,6 +73,7 @@ mod p0319;
 mod p0322;
 mod p0355;
 mod p0375;
+mod p0378;
 mod p0390;
 mod p0394;
 mod p0397;
