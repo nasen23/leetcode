@@ -1,4 +1,13 @@
 #[macro_export]
+macro_rules! sorted {
+    ($e:expr) => {{
+        let mut x = $e;
+        x.sort();
+        x
+    }};
+}
+
+#[macro_export]
 macro_rules! vec_str {
     [$($e:expr), *] => {vec![$($e.to_owned()), *]};
 }
