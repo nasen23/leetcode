@@ -135,6 +135,7 @@ mod p1210;
 mod p1248;
 mod p1266;
 mod p1267;
+mod p1276;
 mod p1291;
 mod p1297;
 mod p1300;
