@@ -138,6 +138,7 @@ mod p0990;
 mod p1012;
 mod p1103;
 mod p1111;
+mod p1140;
 mod p1155;
 mod p1175;
 mod p1210;
