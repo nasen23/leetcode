@@ -104,6 +104,7 @@ mod p0583;
 mod p0599;
 mod p0605;
 mod p0633;
+mod p0643;
 mod p0649;
 mod p0680;
 mod p0682;
