@@ -23,6 +23,7 @@ mod p0008;
 mod p0009;
 mod p0010;
 mod p0011;
+mod p0012;
 mod p0014;
 mod p0015;
 mod p0016;
