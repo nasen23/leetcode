@@ -59,6 +59,7 @@ mod p0044;
 mod p0045;
 mod p0046;
 mod p0047;
+mod p0048;
 mod p0050;
 mod p0054;
 mod p0055;
