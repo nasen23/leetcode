@@ -1,5 +1,6 @@
 #![allow(dead_code, unused_macros)]
 
+mod lcp0013;
 mod m0013;
 mod m0029;
 mod m0056_i;
