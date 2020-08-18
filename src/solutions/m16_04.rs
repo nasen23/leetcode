@@ -61,6 +61,7 @@ impl Solution {
     }
 }
 
+#[cfg(test)]
 mod tests {
     use super::Solution;
     use crate::vec_str;

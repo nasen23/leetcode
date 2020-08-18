@@ -53,8 +53,9 @@ fn num_digits_sum(n: i32) -> i32 {
     res
 }
 
+#[cfg(test)]
 mod tests {
-    use super::Solution;
+    use super::*;
 
     #[test]
     fn test() {
