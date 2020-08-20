@@ -50,7 +50,7 @@ static HELLO_WORLD_STR: &str = "Hello                        world              
 mod bench {
     extern crate test;
     use self::test::Bencher;
-    use super::{HELLO_WORLD_STR, Solution};
+    use super::{Solution, HELLO_WORLD_STR};
 
     #[bench]
     fn using_chars(b: &mut Bencher) {

@@ -58,10 +58,7 @@ mod tests {
                 .map(|s| s.chars().collect::<Vec<_>>())
                 .collect::<Vec<Vec<char>>>()
         };
-        assert_eq!(
-            Solution::num_islands(ve_str_to_chars(vec!["10", "01"])),
-            2
-        );
+        assert_eq!(Solution::num_islands(ve_str_to_chars(vec!["10", "01"])), 2);
         assert_eq!(
             Solution::num_islands(ve_str_to_chars(vec!["11110", "11010", "11000", "00000"])),
             1

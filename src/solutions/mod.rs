@@ -175,6 +175,7 @@ mod p0483;
 mod p0491;
 mod p0513;
 mod p0523;
+mod p0529;
 mod p0542;
 mod p0543;
 mod p0546;

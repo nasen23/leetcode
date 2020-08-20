@@ -1,5 +1,5 @@
-use std::rc::Rc;
 use std::cell::RefCell;
+use std::rc::Rc;
 
 impl Solution {
     pub fn is_balanced(root: Option<Rc<RefCell<TreeNode>>>) -> bool {
@@ -19,7 +19,7 @@ fn is_balance_impl(tree: Option<Rc<RefCell<TreeNode>>>) -> (i32, bool) {
                 (0, false)
             }
         }
-        None => (0, true)
+        None => (0, true),
     }
 }
 
