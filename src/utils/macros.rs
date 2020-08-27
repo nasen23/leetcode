@@ -18,6 +18,11 @@ macro_rules! vec_vec {
 }
 
 #[macro_export]
+macro_rules! vec_vec_str {
+    [$($e:expr), *] => {vec![$(vec_str!($e)), *]};
+}
+
+#[macro_export]
 macro_rules! linkedlist {
     () => {
         None
