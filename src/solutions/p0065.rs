@@ -1,6 +1,7 @@
 impl Solution {
     pub fn is_number(s: String) -> bool {
-        let s = s.trim().split('e').collect::<Vec<_>>();
+        let s = s.trim().to_lowercase();
+        let s = s.split('e').collect::<Vec<_>>();
         match s[..] {
             [float] => is_float(float),
             [sig, exp] => is_float(sig) && is_integer(exp),
