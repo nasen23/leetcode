@@ -239,6 +239,7 @@ mod p0974;
 mod p0983;
 mod p0986;
 mod p0990;
+mod p1002;
 mod p1012;
 mod p1025;
 mod p1038;
