@@ -1,7 +1,6 @@
 #include "x.h"
 
 class Solution {
-  Node *last = nullptr;
 public:
   Node *connect(Node *root) {
     if (!root || !root->left) {
