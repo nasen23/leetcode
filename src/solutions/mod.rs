@@ -13,6 +13,7 @@ mod m16_04;
 mod m16_11;
 mod m16_18;
 mod m17_13;
+mod o0003;
 mod o0009;
 mod o0011;
 mod o0066;
