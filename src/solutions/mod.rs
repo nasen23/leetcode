@@ -198,6 +198,7 @@ mod p0543;
 mod p0546;
 mod p0557;
 mod p0560;
+mod p0561;
 mod p0583;
 mod p0599;
 mod p0605;
