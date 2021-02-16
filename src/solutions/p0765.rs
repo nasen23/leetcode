@@ -1,9 +1,12 @@
 impl Solution {
     pub fn min_swaps_couples(mut row: Vec<i32>) -> i32 {
-        let mut map = row.iter().enumerate().fold(vec![0; row.len()], |mut v, (i, &x)| {
-            v[x as usize] = i;
-            v
-        });
+        let mut map = row
+            .iter()
+            .enumerate()
+            .fold(vec![0; row.len()], |mut v, (i, &x)| {
+                v[x as usize] = i;
+                v
+            });
         let mut res = 0;
         for i in (0..row.len()).step_by(2) {
             let couple = if row[i] % 2 == 0 {

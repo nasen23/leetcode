@@ -20,7 +20,7 @@ fn word_break_impl(
     }
     let mut tmp = vec![];
     for word in dict {
-        if !s.starts_with(word){
+        if !s.starts_with(word) {
             continue;
         }
         let ss = &s[word.len()..];
@@ -46,6 +46,9 @@ mod tests {
 
     #[test]
     fn word_break_impl() {
-        assert_eq!(Solution::word_break("bb".into(), vec_str!["a", "b", "bbb", "bbbb"]), vec_str!["b b"])
+        assert_eq!(
+            Solution::word_break("bb".into(), vec_str!["a", "b", "bbb", "bbbb"]),
+            vec_str!["b b"]
+        )
     }
 }

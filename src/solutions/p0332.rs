@@ -58,7 +58,7 @@ mod tests {
                 .map(|v| v.into_iter().map(|s| s.to_owned()).collect())
                 .collect()
             ),
-            vec_str!["JFK","ATL","JFK","SFO","ATL","SFO"]
+            vec_str!["JFK", "ATL", "JFK", "SFO", "ATL", "SFO"]
         );
     }
 }

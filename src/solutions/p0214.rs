@@ -34,6 +34,9 @@ mod tests {
     #[test]
     fn shortest_palindrome() {
         assert_eq!(Solution::shortest_palindrome("abcd".into()), "dcbabcd");
-        assert_eq!(Solution::shortest_palindrome("aacecaaa".into()), "aaacecaaa");
+        assert_eq!(
+            Solution::shortest_palindrome("aacecaaa".into()),
+            "aaacecaaa"
+        );
     }
 }
