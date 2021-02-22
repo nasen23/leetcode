@@ -216,6 +216,7 @@ mod p0680;
 mod p0682;
 mod p0687;
 mod p0696;
+mod p0697;
 mod p0701;
 mod p0703;
 mod p0715;
