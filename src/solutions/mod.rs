@@ -325,3 +325,4 @@ mod p5500;
 mod p5507;
 mod p5508;
 mod p5509;
+mod p5689;
