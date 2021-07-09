@@ -2,6 +2,7 @@
 
 mod lcp0013;
 mod m0013;
+mod m0017_10;
 mod m0029;
 mod m0056_i;
 mod m0062;
@@ -168,6 +169,7 @@ mod p0338;
 mod p0343;
 mod p0349;
 mod p0350;
+mod p0354;
 mod p0355;
 mod p0375;
 mod p0378;
@@ -303,6 +305,7 @@ mod p1381;
 mod p1382;
 mod p1395;
 mod p1400;
+mod p1404;
 mod p1422;
 mod p1423;
 mod p1438;
