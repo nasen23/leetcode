@@ -25,7 +25,7 @@ impl Solution {
                 }
                 None => 0,
             }
-        };
+        }
 
         max_depth(&root);
         unsafe { MAX_LENGTH }

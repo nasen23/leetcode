@@ -5,7 +5,8 @@ use std::rc::Rc;
 
 impl Solution {
     pub fn is_valid_bst(root: Option<Rc<RefCell<TreeNode>>>) -> bool {
-        Solution::is_valid_bst_impl(&root, &mut std::i64::MIN)
+        let mut x = std::i64::MIN;
+        Solution::is_valid_bst_impl(&root, &mut x)
     }
 
     fn is_valid_bst_impl(node: &Option<Rc<RefCell<TreeNode>>>, last: &mut i64) -> bool {

@@ -28,7 +28,7 @@ impl Solution {
                 }
             }
             res[x as usize] = s[x as usize][(l[x as usize] - b'a') as usize];
-        };
+        }
         dfs(0, -1, &v, l, &mut s, &mut res);
         res
     }

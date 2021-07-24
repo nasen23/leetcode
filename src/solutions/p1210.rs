@@ -15,7 +15,7 @@ impl Solution {
                     _ => 0,
                 }
             };
-        };
+        }
         let max = 0x3f3f3f3f;
         let mut dp = vec![vec![vec![max, max]; c + 1]; r + 1];
         dp[1][1][0] = 0;
