@@ -314,6 +314,7 @@ mod p1486;
 mod p1487;
 mod p1702;
 mod p1736;
+mod p1743;
 mod p1758;
 mod p1759;
 mod p1760;
