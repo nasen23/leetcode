@@ -44,13 +44,6 @@ mod tests {
                 3
             )
         );
-        assert_eq!(
-            13,
-            Solution::max_satisfied(
-                vec![5, 8],
-                vec![0, 1],
-                1
-            )
-        );
+        assert_eq!(13, Solution::max_satisfied(vec![5, 8], vec![0, 1], 1));
     }
 }

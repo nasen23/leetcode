@@ -29,7 +29,7 @@ impl Solution {
                 prev = it;
                 it = next;
             } else {
-                break
+                break;
             }
         }
         res
