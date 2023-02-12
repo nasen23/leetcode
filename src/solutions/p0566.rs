@@ -18,6 +18,9 @@ mod tests {
 
     #[test]
     fn reshape_the_matrix() {
-        assert_eq!(vec_vec![[1, 2, 3, 4]], Solution::matrix_reshape(vec_vec![[1, 2], [3, 4]], 1, 4));
+        assert_eq!(
+            vec_vec![[1, 2, 3, 4]],
+            Solution::matrix_reshape(vec_vec![[1, 2], [3, 4]], 1, 4)
+        );
     }
 }

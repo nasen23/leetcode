@@ -12,7 +12,11 @@ fn longest_substring_impl(s: &str, k: i32) -> i32 {
     for i in 0..26 {
         if map[i] != 0 && map[i] < k {
             let ch = (b'a' + i as u8) as char;
-            return s.split(ch).map(|s| longest_substring_impl(s, k)).max().unwrap();
+            return s
+                .split(ch)
+                .map(|s| longest_substring_impl(s, k))
+                .max()
+                .unwrap();
         }
     }
     s.len() as i32
