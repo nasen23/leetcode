@@ -281,6 +281,7 @@ mod p1012;
 mod p1024;
 mod p1025;
 mod p1038;
+mod p1043;
 mod p1052;
 mod p1103;
 mod p1111;
